@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 class ImagenesView extends StatelessWidget {
   const ImagenesView({super.key});
 
+  static const String name = 'imagenes_view';
+
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
